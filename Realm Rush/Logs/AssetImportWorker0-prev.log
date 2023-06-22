@@ -1,0 +1,720 @@
+Unity Editor version:    2021.3.25f1 (68ef2c4f8861)
+Branch:                  2021.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 11.7.6 (Build 20G1231)
+Darwin version:          20.6.0
+Architecture:            x86_64
+Running under Rosetta:   NO
+Available memory:        4096 MB
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/kaanceylan/Desktop/unity/RealmRush/Realm Rush
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+52888
+Successfully changed project path to: /Users/kaanceylan/Desktop/unity/RealmRush/Realm Rush
+/Users/kaanceylan/Desktop/unity/RealmRush/Realm Rush
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [4494364160] Host "[IP] 192.168.1.104 [Port] 0 [Flags] 2 [Guid] 1939478117 [EditorId] 1939478117 [Version] 1048832 [Id] OSXEditor(0,Kaans-MacBook-Air.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [4494364160] Host "[IP] 192.168.1.104 [Port] 0 [Flags] 2 [Guid] 1939478117 [EditorId] 1939478117 [Version] 1048832 [Id] OSXEditor(0,Kaans-MacBook-Air.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 449.80 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.25f1 (68ef2c4f8861)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/kaanceylan/Desktop/unity/RealmRush/Realm Rush/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Color LCD preferred device: Intel HD Graphics 5000 (low power)
+Metal devices available: 1
+0: Intel HD Graphics 5000 (low power)
+Using device Intel HD Graphics 5000 (low power)
+Initializing Metal device caps: Intel HD Graphics 5000
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56831
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.025739 seconds.
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 131.07 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.733 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1735ms)
+		BeginReloadAssembly (412ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (2ms)
+		EndReloadAssembly (1044ms)
+			LoadAssemblies (413ms)
+			RebuildTransferFunctionScriptingTraits (3ms)
+			SetupTypeCache (304ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (61ms)
+			SetupLoadedEditorAssemblies (568ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (131ms)
+				BeforeProcessingInitializeOnLoad (12ms)
+				ProcessInitializeOnLoadAttributes (313ms)
+				ProcessInitializeOnLoadMethodAttributes (95ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.013301 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/kaanceylan/Desktop/unity/RealmRush/Realm Rush/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/kaanceylan/Desktop/unity/RealmRush/Realm Rush/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.81 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.511 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2513ms)
+		BeginReloadAssembly (381ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (17ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (74ms)
+		EndReloadAssembly (1903ms)
+			LoadAssemblies (379ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (677ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (110ms)
+			SetupLoadedEditorAssemblies (780ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (131ms)
+				ProcessInitializeOnLoadAttributes (589ms)
+				ProcessInitializeOnLoadMethodAttributes (40ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (8ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (13ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.12 seconds
+Refreshing native plugins compatible for Editor in 1.09 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3065 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (89.6 KB). Loaded Objects now: 3541.
+Memory consumption went from 118.3 MB to 118.2 MB.
+Total: 10.515218 ms (FindLiveObjects: 3.044567 ms CreateObjectMapping: 0.518363 ms MarkObjects: 6.079682 ms  DeleteObjects: 0.870709 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 164187.406029 seconds.
+  path: Assets/(0, 0).prefab
+  artifactKey: Guid(b46845f96feca4d8598f7597862d6901) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/(0, 0).prefab using Guid(b46845f96feca4d8598f7597862d6901) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68893d58ac43c2a2bdf1f8f7c4b2f941') in 2.305977 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 108.193827 seconds.
+  path: Assets/Tile-Road.prefab
+  artifactKey: Guid(a8e1620ecabbc4c41a7ff9a6c63c7d76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile-Road.prefab using Guid(a8e1620ecabbc4c41a7ff9a6c63c7d76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3628c72c843853fb419453f1996a6a0b') in 0.263876 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 82.707507 seconds.
+  path: Assets/Tile-Road.prefab
+  artifactKey: Guid(a8e1620ecabbc4c41a7ff9a6c63c7d76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile-Road.prefab using Guid(a8e1620ecabbc4c41a7ff9a6c63c7d76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87abbce321d5a6e19e1263266244eae9') in 0.176041 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.239711 seconds.
+  path: Assets/Tile-Road.prefab
+  artifactKey: Guid(a8e1620ecabbc4c41a7ff9a6c63c7d76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile-Road.prefab using Guid(a8e1620ecabbc4c41a7ff9a6c63c7d76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19c3b564e86d519fa17af50dd4dddaa3') in 0.082290 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.695053 seconds.
+  path: Assets/Tile-Road.prefab
+  artifactKey: Guid(a8e1620ecabbc4c41a7ff9a6c63c7d76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile-Road.prefab using Guid(a8e1620ecabbc4c41a7ff9a6c63c7d76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b364883b7f46458005dadbe263f238e') in 0.090680 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 207.463888 seconds.
+  path: Assets/Tile_RoadCorner.prefab
+  artifactKey: Guid(c4adfe16a514b4c5fbb13c199100bb54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile_RoadCorner.prefab using Guid(c4adfe16a514b4c5fbb13c199100bb54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cba75fb7d4ed74ce18bb0c2bb945f5b') in 0.195492 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 23.706987 seconds.
+  path: Assets/Tile_RoadCorner.prefab
+  artifactKey: Guid(c4adfe16a514b4c5fbb13c199100bb54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile_RoadCorner.prefab using Guid(c4adfe16a514b4c5fbb13c199100bb54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19f3740eeb2297e676d78369fb7c0230') in 0.132619 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.818162 seconds.
+  path: Assets/Tile_RoadCorner.prefab
+  artifactKey: Guid(c4adfe16a514b4c5fbb13c199100bb54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile_RoadCorner.prefab using Guid(c4adfe16a514b4c5fbb13c199100bb54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07d17e1788c54b7ea0f73ac834ca275b') in 0.098314 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 477.031943 seconds.
+  path: Assets/Tile_RoadStraight.prefab
+  artifactKey: Guid(a8e1620ecabbc4c41a7ff9a6c63c7d76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile_RoadStraight.prefab using Guid(a8e1620ecabbc4c41a7ff9a6c63c7d76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db859943929cd429185ed6540d36f73c') in 0.227825 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 191.852685 seconds.
+  path: Assets/Tile_RoadStraight90.prefab
+  artifactKey: Guid(039c1b48ac1cf44159ca09504124b2ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile_RoadStraight90.prefab using Guid(039c1b48ac1cf44159ca09504124b2ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdef7dde59c14511353cc94d0632a9c2') in 0.349801 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.044617 seconds.
+  path: Assets/Tile_RoadStraight90.prefab
+  artifactKey: Guid(039c1b48ac1cf44159ca09504124b2ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile_RoadStraight90.prefab using Guid(039c1b48ac1cf44159ca09504124b2ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33cb6c554a5e7c403196d19247c127b1') in 0.094314 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 850.623312 seconds.
+  path: Assets/Tile_RoadStraight.prefab
+  artifactKey: Guid(a8e1620ecabbc4c41a7ff9a6c63c7d76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile_RoadStraight.prefab using Guid(a8e1620ecabbc4c41a7ff9a6c63c7d76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c1f80a277d44cca014ffa6a1f02e6f9') in 0.230642 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/Tile_RoadStraight90.prefab
+  artifactKey: Guid(039c1b48ac1cf44159ca09504124b2ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile_RoadStraight90.prefab using Guid(039c1b48ac1cf44159ca09504124b2ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fbf0d01bd8c21f61ae99dc739ce4c69') in 0.094981 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 45.751234 seconds.
+  path: Assets/Tile.prefab
+  artifactKey: Guid(b46845f96feca4d8598f7597862d6901) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile.prefab using Guid(b46845f96feca4d8598f7597862d6901) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d2fac5678d907890693ce26a5c0c920') in 0.208414 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000286 seconds.
+  path: Assets/Tile_RoadStraight90.prefab
+  artifactKey: Guid(039c1b48ac1cf44159ca09504124b2ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile_RoadStraight90.prefab using Guid(039c1b48ac1cf44159ca09504124b2ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0274a690055a3e40c4b86032b5baf48c') in 0.145046 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000127 seconds.
+  path: Assets/Tile_RoadCorner.prefab
+  artifactKey: Guid(c4adfe16a514b4c5fbb13c199100bb54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile_RoadCorner.prefab using Guid(c4adfe16a514b4c5fbb13c199100bb54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80555498bb243781f299a5860314f907') in 0.106004 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/Tile_RoadStraight.prefab
+  artifactKey: Guid(a8e1620ecabbc4c41a7ff9a6c63c7d76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile_RoadStraight.prefab using Guid(a8e1620ecabbc4c41a7ff9a6c63c7d76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2836a4cbe7192d29fdc0f7c224a0c25c') in 0.079360 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.874068 seconds.
+  path: Assets/Tile.prefab
+  artifactKey: Guid(b46845f96feca4d8598f7597862d6901) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile.prefab using Guid(b46845f96feca4d8598f7597862d6901) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53c0a02ad419d79dd331fc78813c54fd') in 0.071740 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000124 seconds.
+  path: Assets/Tile_RoadStraight90.prefab
+  artifactKey: Guid(039c1b48ac1cf44159ca09504124b2ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile_RoadStraight90.prefab using Guid(039c1b48ac1cf44159ca09504124b2ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1949315adec3511d0045a808e6f1bd7') in 0.059783 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000283 seconds.
+  path: Assets/Tile_RoadCorner.prefab
+  artifactKey: Guid(c4adfe16a514b4c5fbb13c199100bb54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile_RoadCorner.prefab using Guid(c4adfe16a514b4c5fbb13c199100bb54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c96e6fc46cf6fa1d0498b313a35e071b') in 0.074384 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000755 seconds.
+  path: Assets/Tile_RoadStraight.prefab
+  artifactKey: Guid(a8e1620ecabbc4c41a7ff9a6c63c7d76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile_RoadStraight.prefab using Guid(a8e1620ecabbc4c41a7ff9a6c63c7d76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8379f4ebf5a4793f171969aba4115106') in 0.217436 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.811412 seconds.
+  path: Assets/Tile.prefab
+  artifactKey: Guid(b46845f96feca4d8598f7597862d6901) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile.prefab using Guid(b46845f96feca4d8598f7597862d6901) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '387ec35fb90d146fcc5da6d869a5be5b') in 0.058403 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001724 seconds.
+  path: Assets/Tile_RoadStraight90.prefab
+  artifactKey: Guid(039c1b48ac1cf44159ca09504124b2ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile_RoadStraight90.prefab using Guid(039c1b48ac1cf44159ca09504124b2ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86c23d73b741ced813e10acd6e0d6da9') in 0.063433 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000431 seconds.
+  path: Assets/Tile_RoadCorner.prefab
+  artifactKey: Guid(c4adfe16a514b4c5fbb13c199100bb54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile_RoadCorner.prefab using Guid(c4adfe16a514b4c5fbb13c199100bb54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce56189a03a84d8fe93225fac28d8f6f') in 0.065739 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/Tile_RoadStraight.prefab
+  artifactKey: Guid(a8e1620ecabbc4c41a7ff9a6c63c7d76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile_RoadStraight.prefab using Guid(a8e1620ecabbc4c41a7ff9a6c63c7d76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbff140dbc8f4215c75c195156c4c27a') in 0.077722 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 128.659047 seconds.
+  path: Assets/Tile.prefab
+  artifactKey: Guid(b46845f96feca4d8598f7597862d6901) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile.prefab using Guid(b46845f96feca4d8598f7597862d6901) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3853d96b9977171b143797728a9f362') in 0.444971 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000354 seconds.
+  path: Assets/Tile_RoadStraight90.prefab
+  artifactKey: Guid(039c1b48ac1cf44159ca09504124b2ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile_RoadStraight90.prefab using Guid(039c1b48ac1cf44159ca09504124b2ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bededad34153370823c59e6840b2dab') in 0.133457 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000468 seconds.
+  path: Assets/Tile_RoadCorner.prefab
+  artifactKey: Guid(c4adfe16a514b4c5fbb13c199100bb54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile_RoadCorner.prefab using Guid(c4adfe16a514b4c5fbb13c199100bb54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da5555709ed859d42fde4df879a36996') in 0.329276 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000827 seconds.
+  path: Assets/Tile_RoadStraight.prefab
+  artifactKey: Guid(a8e1620ecabbc4c41a7ff9a6c63c7d76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile_RoadStraight.prefab using Guid(a8e1620ecabbc4c41a7ff9a6c63c7d76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70ab30f2491a17c4689df0ed72dfd2b7') in 0.275552 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.987200 seconds.
+  path: Assets/Tile.prefab
+  artifactKey: Guid(b46845f96feca4d8598f7597862d6901) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile.prefab using Guid(b46845f96feca4d8598f7597862d6901) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99bde1bc0ba04c2ca34566289a571b31') in 0.080386 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008897 seconds.
+  path: Assets/Tile_RoadCorner.prefab
+  artifactKey: Guid(c4adfe16a514b4c5fbb13c199100bb54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile_RoadCorner.prefab using Guid(c4adfe16a514b4c5fbb13c199100bb54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edf16732111d7d006a8d37f36c7b8eac') in 0.080532 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Assets/Tile_RoadStraight90.prefab
+  artifactKey: Guid(039c1b48ac1cf44159ca09504124b2ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile_RoadStraight90.prefab using Guid(039c1b48ac1cf44159ca09504124b2ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9005655b176a865cf293c9c2680801f') in 0.116830 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000112 seconds.
+  path: Assets/Tile_RoadStraight.prefab
+  artifactKey: Guid(a8e1620ecabbc4c41a7ff9a6c63c7d76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile_RoadStraight.prefab using Guid(a8e1620ecabbc4c41a7ff9a6c63c7d76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5adebf70ae9ff68eb01ad4bb8513e365') in 0.238347 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 217.738955 seconds.
+  path: Assets/Tile_RoadCorner270.prefab
+  artifactKey: Guid(f2930b09381314a10bdafdf3b1c57f8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile_RoadCorner270.prefab using Guid(f2930b09381314a10bdafdf3b1c57f8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16f356acdf08f7b4d5d2f696002e4384') in 0.212419 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 28.016836 seconds.
+  path: Assets/Tile_RoadCorner270.prefab
+  artifactKey: Guid(f2930b09381314a10bdafdf3b1c57f8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile_RoadCorner270.prefab using Guid(f2930b09381314a10bdafdf3b1c57f8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9217a780ea03027109687d1c59d4de23') in 0.111103 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 37.376524 seconds.
+  path: Assets/Tile_RoadCorner90.prefab
+  artifactKey: Guid(8f8c196723b3748d8bdea2bee49bad8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile_RoadCorner90.prefab using Guid(8f8c196723b3748d8bdea2bee49bad8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32df575e3b947837b06f8ff6e73709c9') in 0.179931 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.125381 seconds.
+  path: Assets/Tile_RoadCorner90.prefab
+  artifactKey: Guid(8f8c196723b3748d8bdea2bee49bad8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile_RoadCorner90.prefab using Guid(8f8c196723b3748d8bdea2bee49bad8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff579a4663529ca6f6f27653690d3244') in 0.114444 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.902347 seconds.
+  path: Assets/Tile_RoadCorner180.prefab
+  artifactKey: Guid(e807894478700412abb8a17100dffc90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile_RoadCorner180.prefab using Guid(e807894478700412abb8a17100dffc90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed624880dd954b0d69efcde390064186') in 0.087432 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.488009 seconds.
+  path: Assets/Tile_RoadCorner180.prefab
+  artifactKey: Guid(e807894478700412abb8a17100dffc90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile_RoadCorner180.prefab using Guid(e807894478700412abb8a17100dffc90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6213837717e67fad19398d32af4702ee') in 0.085041 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.220693 seconds.
+  path: Assets/Tile
+  artifactKey: Guid(03ca936dc3225415baf4fe71db08ca84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile using Guid(03ca936dc3225415baf4fe71db08ca84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5add7b0bc8e0e16b849261c7e24aec64') in 0.013184 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 72.259667 seconds.
+  path: Assets/Enemy
+  artifactKey: Guid(a775d8ad244934887a527844a9a3fd44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemy using Guid(a775d8ad244934887a527844a9a3fd44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55181ef4a23f8e304d80a19ee41c68cf') in 0.008580 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 559.500310 seconds.
+  path: Assets/EnemyMoover.cs
+  artifactKey: Guid(2c423d802787e44c6b38d76ebb7f3b62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EnemyMoover.cs using Guid(2c423d802787e44c6b38d76ebb7f3b62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '789227f2d5d8b4dabb9a873583ee167d') in 1.005068 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004868 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/kaanceylan/Desktop/unity/RealmRush/Realm Rush/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/kaanceylan/Desktop/unity/RealmRush/Realm Rush/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 3.99 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.522 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3528ms)
+		BeginReloadAssembly (990ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (34ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (322ms)
+		EndReloadAssembly (2309ms)
+			LoadAssemblies (582ms)
+			RebuildTransferFunctionScriptingTraits (7ms)
+			SetupTypeCache (878ms)
+			ReleaseScriptCaches (18ms)
+			RebuildScriptCaches (117ms)
+			SetupLoadedEditorAssemblies (847ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (4ms)
+				BeforeProcessingInitializeOnLoad (113ms)
+				ProcessInitializeOnLoadAttributes (625ms)
+				ProcessInitializeOnLoadMethodAttributes (86ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (34ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 18.71 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3047 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 17 unused Assets / (69.1 KB). Loaded Objects now: 3553.
+Memory consumption went from 127.4 MB to 127.4 MB.
+Total: 44.848533 ms (FindLiveObjects: 3.686131 ms CreateObjectMapping: 0.607969 ms MarkObjects: 38.878005 ms  DeleteObjects: 1.674049 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003793 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/kaanceylan/Desktop/unity/RealmRush/Realm Rush/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/kaanceylan/Desktop/unity/RealmRush/Realm Rush/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 9.62 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  7.591 seconds
+Domain Reload Profiling:
+	ReloadAssembly (7595ms)
+		BeginReloadAssembly (805ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (48ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (277ms)
+		EndReloadAssembly (6177ms)
+			LoadAssemblies (623ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (3032ms)
+			ReleaseScriptCaches (77ms)
+			RebuildScriptCaches (302ms)
+			SetupLoadedEditorAssemblies (1922ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (25ms)
+				SetLoadedEditorAssemblies (7ms)
+				RefreshPlugins (10ms)
+				BeforeProcessingInitializeOnLoad (276ms)
+				ProcessInitializeOnLoadAttributes (1473ms)
+				ProcessInitializeOnLoadMethodAttributes (124ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (28ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 6.21 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3047 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 17 unused Assets / (69.1 KB). Loaded Objects now: 3556.
+Memory consumption went from 127.4 MB to 127.4 MB.
+Total: 30.696274 ms (FindLiveObjects: 1.378676 ms CreateObjectMapping: 0.629388 ms MarkObjects: 28.401452 ms  DeleteObjects: 0.284717 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005791 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/kaanceylan/Desktop/unity/RealmRush/Realm Rush/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/kaanceylan/Desktop/unity/RealmRush/Realm Rush/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 6.38 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  5.065 seconds
+Domain Reload Profiling:
+	ReloadAssembly (5067ms)
+		BeginReloadAssembly (672ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (51ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (269ms)
+		EndReloadAssembly (4191ms)
+			LoadAssemblies (654ms)
+			RebuildTransferFunctionScriptingTraits (2ms)
+			SetupTypeCache (1852ms)
+			ReleaseScriptCaches (61ms)
+			RebuildScriptCaches (210ms)
+			SetupLoadedEditorAssemblies (1329ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (19ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (7ms)
+				BeforeProcessingInitializeOnLoad (139ms)
+				ProcessInitializeOnLoadAttributes (1086ms)
+				ProcessInitializeOnLoadMethodAttributes (70ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (14ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 9.17 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3047 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 17 unused Assets / (69.1 KB). Loaded Objects now: 3559.
+Memory consumption went from 127.4 MB to 127.4 MB.
+Total: 29.226555 ms (FindLiveObjects: 0.612434 ms CreateObjectMapping: 15.254698 ms MarkObjects: 13.036758 ms  DeleteObjects: 0.315723 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 7158.936675 seconds.
+  path: Assets/Enemy/Ram.prefab
+  artifactKey: Guid(b940df629b09f434dbb9fd487257db6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemy/Ram.prefab using Guid(b940df629b09f434dbb9fd487257db6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8c924489287752dd1d4b4d9a655e862') in 0.712066 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 49297.063477 seconds.
+  path: Assets/Enemy/Ram.prefab
+  artifactKey: Guid(b940df629b09f434dbb9fd487257db6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemy/Ram.prefab using Guid(b940df629b09f434dbb9fd487257db6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e884c06e35086104667d46e6b1c43392') in 1.569010 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.447305 seconds.
+  path: Assets/Enemy/Ram.prefab
+  artifactKey: Guid(b940df629b09f434dbb9fd487257db6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemy/Ram.prefab using Guid(b940df629b09f434dbb9fd487257db6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c3a0bc96145869d932e1ff136fc3742') in 0.333251 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.041157 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/kaanceylan/Desktop/unity/RealmRush/Realm Rush/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/kaanceylan/Desktop/unity/RealmRush/Realm Rush/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 59.64 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in 19.885 seconds
+Domain Reload Profiling:
+	ReloadAssembly (19944ms)
+		BeginReloadAssembly (3641ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (174ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (1ms)
+			CreateAndSetChildDomain (1802ms)
+		EndReloadAssembly (15107ms)
+			LoadAssemblies (1077ms)
+			RebuildTransferFunctionScriptingTraits (13ms)
+			SetupTypeCache (6953ms)
+			ReleaseScriptCaches (154ms)
+			RebuildScriptCaches (2231ms)
+			SetupLoadedEditorAssemblies (2224ms)
+				LogAssemblyErrors (2ms)
+				InitializePlatformSupportModulesInManaged (97ms)
+				SetLoadedEditorAssemblies (9ms)
+				RefreshPlugins (62ms)
+				BeforeProcessingInitializeOnLoad (416ms)
+				ProcessInitializeOnLoadAttributes (1466ms)
+				ProcessInitializeOnLoadMethodAttributes (154ms)
+				AfterProcessingInitializeOnLoad (13ms)
+				EditorAssembliesLoaded (4ms)
+			ExecutionOrderSort2 (1ms)
+			AwakeInstancesAfterBackupRestoration (28ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 44.88 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3047 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 17 unused Assets / (69.1 KB). Loaded Objects now: 3562.
+Memory consumption went from 127.5 MB to 127.4 MB.
+Total: 189.659581 ms (FindLiveObjects: 3.665093 ms CreateObjectMapping: 1.122622 ms MarkObjects: 183.133295 ms  DeleteObjects: 1.736380 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.025658 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/kaanceylan/Desktop/unity/RealmRush/Realm Rush/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/kaanceylan/Desktop/unity/RealmRush/Realm Rush/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 98.37 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in 10.992 seconds
+Domain Reload Profiling:
+	ReloadAssembly (11006ms)
+		BeginReloadAssembly (1388ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (28ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (5ms)
+			CreateAndSetChildDomain (552ms)
+		EndReloadAssembly (8957ms)
+			LoadAssemblies (766ms)
+			RebuildTransferFunctionScriptingTraits (16ms)
+			SetupTypeCache (1724ms)
+			ReleaseScriptCaches (89ms)
+			RebuildScriptCaches (270ms)
+			SetupLoadedEditorAssemblies (6117ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (28ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (99ms)
+				BeforeProcessingInitializeOnLoad (259ms)
+				ProcessInitializeOnLoadAttributes (5435ms)
+				ProcessInitializeOnLoadMethodAttributes (254ms)
+				AfterProcessingInitializeOnLoad (39ms)
+				EditorAssembliesLoaded (3ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (41ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 26.40 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3047 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 17 unused Assets / (69.2 KB). Loaded Objects now: 3565.
+Memory consumption went from 127.5 MB to 127.4 MB.
+Total: 98.784073 ms (FindLiveObjects: 5.345008 ms CreateObjectMapping: 1.138180 ms MarkObjects: 83.784702 ms  DeleteObjects: 8.511507 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
