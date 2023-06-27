@@ -22,7 +22,7 @@ public class EnemyHealt : MonoBehaviour
         currentHitPoints--;
         if(currentHitPoints <= 0)
         {
-            Destroy(gameObject);
+            gameObject.SetActive(false);
         }
     }
 }
