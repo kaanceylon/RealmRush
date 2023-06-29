@@ -344,12 +344,14 @@
 -r:"Library/Bee/artifacts/200b0aE.dag/Unity.VSCode.Editor.ref.dll"
 -r:"Library/Bee/artifacts/200b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/200b0aE.dag/UnityEngine.UI.ref.dll"
+"Assets/Bank/Bank.cs"
 "Assets/Coordinate.cs"
 "Assets/Enemy/Enemy.cs"
 "Assets/EnemyHealt.cs"
 "Assets/EnemyMoover.cs"
 "Assets/ObjectPool.cs"
 "Assets/TargetLocater.cs"
+"Assets/Tower/Tower.cs"
 "Assets/WayPoint.cs"
 -langversion:9.0
 
