@@ -3216,3 +3216,77 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 18723.401510 seconds.
+  path: Assets/FetteNationalFraktur.ttf
+  artifactKey: Guid(d915c6b387914480f9b25ce2f0b7c44b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FetteNationalFraktur.ttf using Guid(d915c6b387914480f9b25ce2f0b7c44b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aedb2868c26d9ed592275d160ffa5783') in 7.223342 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 127.261540 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.asset
+  artifactKey: Guid(03cc034cb18644ed0a4d589dc8967261) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.asset using Guid(03cc034cb18644ed0a4d589dc8967261) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a47d158ce93d0e219b7ab145d63b814') in 0.799978 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006388 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/kaanceylan/Desktop/unity/RealmRush/Realm Rush/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/kaanceylan/Desktop/unity/RealmRush/Realm Rush/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 17.01 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.374 seconds
+Domain Reload Profiling:
+	ReloadAssembly (4384ms)
+		BeginReloadAssembly (1585ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (66ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (1ms)
+			CreateAndSetChildDomain (777ms)
+		EndReloadAssembly (2458ms)
+			LoadAssemblies (616ms)
+			RebuildTransferFunctionScriptingTraits (7ms)
+			SetupTypeCache (938ms)
+			ReleaseScriptCaches (36ms)
+			RebuildScriptCaches (109ms)
+			SetupLoadedEditorAssemblies (937ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (3ms)
+				RefreshPlugins (18ms)
+				BeforeProcessingInitializeOnLoad (133ms)
+				ProcessInitializeOnLoadAttributes (702ms)
+				ProcessInitializeOnLoadMethodAttributes (64ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (2ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (23ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 8.79 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3053 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 17 unused Assets / (68.8 KB). Loaded Objects now: 3714.
+Memory consumption went from 136.5 MB to 136.5 MB.
+Total: 58.800631 ms (FindLiveObjects: 13.153194 ms CreateObjectMapping: 4.852004 ms MarkObjects: 39.095757 ms  DeleteObjects: 1.697608 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1098.807024 seconds.
+  path: Assets/Bank/Bank.cs
+  artifactKey: Guid(6d216407303c8435a898dfeab7d389f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bank/Bank.cs using Guid(6d216407303c8435a898dfeab7d389f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75900d6086420f4e80d4d1c9330eba20') in 0.102363 seconds 
