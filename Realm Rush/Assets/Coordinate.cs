@@ -4,6 +4,7 @@ using UnityEngine;
 using TMPro;
 
 [ExecuteAlways]
+[RequireComponent(typeof(TextMeshPro))] // koordinat etiketiyle aynı nesne üzerinde olmasını sağladık.
 public class Coordinate : MonoBehaviour
 {
     [SerializeField] Color defaultColor = Color.white;
@@ -29,8 +30,10 @@ public class Coordinate : MonoBehaviour
         {
             DisplayCoordinates();
             UpdateObjectName();
+            label.enabled = true;
         }
-        ColorCoordinates();
+
+        SetLabelColor();
         ToggleLabels();
     }
 
@@ -43,7 +46,7 @@ public class Coordinate : MonoBehaviour
            
     }
 
-    void ColorCoordinates()
+    void SetLabelColor()
     {
         if(waypoint.IsPlaceable)
         {
